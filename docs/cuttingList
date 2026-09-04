@@ -1,0 +1,18 @@
+Cutting list for Agro Care: 
+
+- Plywood - 2 boards (General structure and body)
+- Mini submersible water pump - 1 (To pump water down the pipe to the water trough)
+- RC552 RFID module + tags - 1 (For door entry and exit)
+- mini OLED display - 1 (Display screen for the cards)
+- 4 channel 5v relay module - 2 (To alllow the ESP-32 control the other parts)
+- Ceramic heating bulb - 2 (For heating the room on cold environments )
+- Break-beam IR sensor pairs - 6 (To detect food levels in both feeding trough and the container)
+- Float switch - 2 (To detect water level)
+-  DHT22 - 1 (Temperature and humidity sensor)
+- Servo motor - 1 (To open and close food dispensing pipe)
+- DC fan - 2  (To circulate warm air)
+- Buck converter - 1 (To control circuit)
+- Adapter - 1 (For power supply)
+
+
+

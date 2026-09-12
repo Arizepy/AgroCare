@@ -1,8 +1,10 @@
-from flask import Blueprint, request, jsonify
 
+from flask import Blueprint, request, jsonify
+#from ..models.database import DataBase
+#from ..init import db
 
 auth = Blueprint('auth', __name__)
-
+'''
 @auth.route('/login', methods = ['GET', 'POST'])
 def login(): 
     #Get username and phone number
@@ -17,4 +19,12 @@ def login():
         return jsonify({'error': 'User name is too short'}), 404 
 
     else : 
+        user = DataBase(
+            user_name = user_name, 
+            phone_number = phone
+        )
+
+        db.session.add(user)
+        db.session.commit()
         return jsonify({'success': 'Login successful'}), 200 
+        '''
